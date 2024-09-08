@@ -1,0 +1,101 @@
+/* تنسيق الصفحة العامة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* خلفية سوداء */
+    color: #ffffff; /* لون النص أبيض */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    background-color: #333333; /* خلفية رمادية داكنة */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* ظل خفيف */
+    max-width: 800px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* تنسيق الفورم */
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* تنسيق حقل الإدخال */
+.input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #555555;
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* تنسيق زر إضافة المهام */
+.add {
+    width: 25%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add:hover {
+    background-color: #218838;
+}
+
+/* تنسيق قائمة المهام */
+.tasks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks .task {
+    background-color: #444444;
+    border: 1px solid #555555;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* عند إكمال المهمة */
+.tasks .task.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* تنسيق زر الحذف */
+.tasks .task .delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tasks .task .delete:hover {
+    background-color: #c82333;
+}
+
+/* تنسيق
+
+
